@@ -1,24 +1,20 @@
-package org.fasttrackit.animal;
+package AnimalRescuer;
 
-public class Dog extends Animal {
+public class Dog {
+    String name = "Falco";
+    int age = 2;
+    String breed = "Samoyede";
+    String color = "white";
+    double weight = 30.5;
+    String gender = "Male";
 
-    @Override
-    public String name() {
-        return "CAINE";
+
+    public void talk() {
+        System.out.println("ham-ham");
     }
 
-    @Override
-    public String walk() {
-        return "4 picioare";
-    }
 
-    @Override
-    public String talk() {
-        return "ham-ham";
-    }
-
-    @Override
-    public String eat() {
-        return "oase";
+    public void eat() {
+        System.out.println("oase");
     }
 }
